@@ -1,0 +1,40 @@
+<ion-view title="Лицевой счет" id="page2" class=" ">
+    <ion-content padding="true" class="has-header">
+        <div id="page2-button-bar1" class=" button-bar ">
+            <button id="page2-button4" class=" button button-assertive  button-block ">Ввод показаний</button>
+            <a ui-sref="tabsController.page8" id="page2-button5" class=" button button-assertive  button-block ">Информация о ЛС</a>
+            <a ui-sref="tabsController.page9" id="page2-button6" class=" button button-assertive  button-block ">Приборы учета</a>
+        </div>
+        <p id="page2-markdown9" style="color:#000000;" class=" ">Ввод показаний в кубометрах.</p>
+        <div class="spacer" style="width: 283px; height: 17px;"></div>
+        <p id="page2-markdown10" style="color:#000000;font-size:16px;text-align:center;" class=" ">№2394952||Горячее водоснабжение||Кухня</p>
+        <form id="page2-form13" class="list ">
+            <label class="item item-input " id="page2-input25">
+                <input type="text" placeholder="куб.м">
+            </label>
+        </form>
+        <p id="page2-markdown11" style="color:#000000;font-size:16px;text-align:center;" class=" ">№2394953||Горячее водоснабжение||Туалет</p>
+        <form id="page2-form14" class="list ">
+            <label class="item item-input " id="page2-input26">
+                <input type="text" placeholder="куб.м">
+            </label>
+        </form>
+        <p id="page2-markdown12" style="color:#000000;font-size:16px;text-align:center;" class=" ">№2395952||Холодное водоснабжение||Кухня</p>
+        <form id="page2-form15" class="list ">
+            <label class="item item-input " id="page2-input27">
+                <input type="text" placeholder="куб.м">
+            </label>
+            <p id="page2-markdown13" style="color:#000000;font-size:16px;text-align:center;" class=" ">№2395953||Холодное водоснабжение||Туалет</p>
+            <label class="item item-input " id="page2-input28">
+                <input type="text" placeholder="куб.м">
+            </label>
+            <button id="page2-button16" class=" button button-assertive  button-block " onclick="DrowText()" >Сохранить</button>
+			<script type="text/javascript"> 
+			function DrowText() 
+			{ 
+			var t=setTimeout("alert("Сохранено")", 1000); 
+			} 
+			</script>
+        </form>
+    </ion-content>
+</ion-view>
